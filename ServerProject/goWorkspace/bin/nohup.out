@@ -1,0 +1,536 @@
+2018/12/07 09:39:58 Starting collider: tls = false, port = 8089, room-server=http://172.18.59.81:8080
+2018/12/07 09:43:22 Created room 666
+2018/12/07 09:43:22 Added client 13367094 to room 666
+2018/12/07 09:43:22 Client 13367094 registered in room 666
+2018/12/07 09:43:30 Created room 6665
+2018/12/07 09:43:30 Added client 87389934 to room 6665
+2018/12/07 09:43:30 Client 87389934 registered in room 6665
+2018/12/07 09:43:40 Deregistered client 13367094 from room 666
+2018/12/07 09:43:40 Removed client 13367094 from room 666
+2018/12/07 09:43:40 Removed room 666
+2018/12/07 09:43:43 Deregistered client 87389934 from room 6665
+2018/12/07 09:43:43 Removed client 87389934 from room 6665
+2018/12/07 09:43:43 Removed room 6665
+2018/12/07 09:43:50 Removing client 13367094 from room 666 due to timeout
+2018/12/07 09:43:52 Created room 6665
+2018/12/07 09:43:52 Added client 71902632 to room 6665
+2018/12/07 09:43:52 Client 71902632 registered in room 6665
+2018/12/07 09:43:53 Removing client 87389934 from room 6665 due to timeout
+2018/12/07 09:43:56 Added client 09264881 to room 6665
+2018/12/07 09:43:56 Client 09264881 registered in room 6665
+2018/12/07 09:43:56 Sent queued messages from 71902632 to 09264881
+2018/12/07 09:43:57 Deregistered client 09264881 from room 6665
+2018/12/07 09:44:03 Deregistered client 71902632 from room 6665
+2018/12/07 09:44:07 Removing client 09264881 from room 6665 due to timeout
+2018/12/07 09:44:07 Removed client 09264881 from room 6665
+2018/12/07 09:44:10 Created room 6667
+2018/12/07 09:44:10 Added client 61930634 to room 6667
+2018/12/07 09:44:10 Client 61930634 registered in room 6667
+2018/12/07 09:44:13 Removing client 71902632 from room 6665 due to timeout
+2018/12/07 09:44:13 Removed client 71902632 from room 6665
+2018/12/07 09:44:13 Removed room 6665
+2018/12/07 09:44:17 Added client 13482084 to room 6667
+2018/12/07 09:44:17 Client 13482084 registered in room 6667
+2018/12/07 09:44:17 Sent queued messages from 61930634 to 13482084
+2018/12/07 09:44:19 Deregistered client 13482084 from room 6667
+2018/12/07 09:44:29 Removing client 13482084 from room 6667 due to timeout
+2018/12/07 09:44:29 Removed client 13482084 from room 6667
+2018/12/07 09:44:32 Deregistered client 61930634 from room 6667
+2018/12/07 09:44:42 Removing client 61930634 from room 6667 due to timeout
+2018/12/07 09:44:42 Removed client 61930634 from room 6667
+2018/12/07 09:44:42 Removed room 6667
+2018/12/07 09:44:54 Created room 456
+2018/12/07 09:44:54 Added client 07803647 to room 456
+2018/12/07 09:44:54 Client 07803647 registered in room 456
+2018/12/07 09:45:00 Added client 19361078 to room 456
+2018/12/07 09:45:00 Client 19361078 registered in room 456
+2018/12/07 09:45:00 Sent queued messages from 07803647 to 19361078
+2018/12/07 09:45:01 Deregistered client 19361078 from room 456
+2018/12/07 09:45:10 Deregistered client 07803647 from room 456
+2018/12/07 09:45:11 Removing client 19361078 from room 456 due to timeout
+2018/12/07 09:45:11 Removed client 19361078 from room 456
+2018/12/07 09:45:20 Removing client 07803647 from room 456 due to timeout
+2018/12/07 09:45:20 Removed client 07803647 from room 456
+2018/12/07 09:45:20 Removed room 456
+2018/12/07 09:46:08 Created room 789
+2018/12/07 09:46:08 Added client 79783006 to room 789
+2018/12/07 09:46:08 Client 79783006 registered in room 789
+2018/12/07 09:46:42 Removed client 79783006 from room 789
+2018/12/07 09:46:42 Removed room 789
+2018/12/07 10:02:42 Created room 4567
+2018/12/07 10:02:42 Added client 26338728 to room 4567
+2018/12/07 10:02:42 Client 26338728 registered in room 4567
+2018/12/07 10:02:48 Added client 72258690 to room 4567
+2018/12/07 10:02:48 Client 72258690 registered in room 4567
+2018/12/07 10:02:48 Sent queued messages from 26338728 to 72258690
+2018/12/07 10:03:03 Deregistered client 26338728 from room 4567
+2018/12/07 10:03:03 Removed client 26338728 from room 4567
+2018/12/07 10:03:03 Deregistered client 72258690 from room 4567
+2018/12/07 10:03:03 Removed client 72258690 from room 4567
+2018/12/07 10:03:03 Removed room 4567
+2018/12/07 10:03:13 Removing client 26338728 from room 4567 due to timeout
+2018/12/07 10:03:13 Removing client 72258690 from room 4567 due to timeout
+2018/12/07 10:09:27 Created room 4567
+2018/12/07 10:09:27 Added client 11057839 to room 4567
+2018/12/07 10:09:27 Client 11057839 registered in room 4567
+2018/12/07 10:19:01 Deregistered client 11057839 from room 4567
+2018/12/07 10:19:11 Removing client 11057839 from room 4567 due to timeout
+2018/12/07 10:19:11 Removed client 11057839 from room 4567
+2018/12/07 10:19:11 Removed room 4567
+2018/12/07 10:34:12 Created room 445824077
+2018/12/07 10:34:12 Added client 06032456 to room 445824077
+2018/12/07 10:34:12 Client 06032456 registered in room 445824077
+2018/12/07 10:34:15 Added client 87444509 to room 445824077
+2018/12/07 10:34:15 Client 87444509 registered in room 445824077
+2018/12/07 10:34:15 Sent queued messages from 06032456 to 87444509
+2018/12/07 10:34:32 Deregistered client 06032456 from room 445824077
+2018/12/07 10:34:32 Removed client 06032456 from room 445824077
+2018/12/07 10:34:37 Deregistered client 87444509 from room 445824077
+2018/12/07 10:34:42 Removing client 06032456 from room 445824077 due to timeout
+2018/12/07 10:34:47 Removing client 87444509 from room 445824077 due to timeout
+2018/12/07 10:34:47 Removed client 87444509 from room 445824077
+2018/12/07 10:34:47 Removed room 445824077
+2018/12/07 10:37:24 Created room 234567
+2018/12/07 10:37:24 Added client 89937559 to room 234567
+2018/12/07 10:37:24 Client 89937559 registered in room 234567
+2018/12/07 10:38:01 Deregistered client 89937559 from room 234567
+2018/12/07 10:38:01 Removed client 89937559 from room 234567
+2018/12/07 10:38:01 Removed room 234567
+2018/12/07 10:38:11 Removing client 89937559 from room 234567 due to timeout
+2018/12/07 10:44:48 Created room 234567
+2018/12/07 10:44:48 Added client 35468287 to room 234567
+2018/12/07 10:44:48 Client 35468287 registered in room 234567
+2018/12/07 10:45:12 Added client 80378226 to room 234567
+2018/12/07 10:45:12 Client 80378226 registered in room 234567
+2018/12/07 10:45:12 Sent queued messages from 35468287 to 80378226
+2018/12/07 10:45:42 Deregistered client 80378226 from room 234567
+2018/12/07 10:45:52 Removing client 80378226 from room 234567 due to timeout
+2018/12/07 10:45:52 Removed client 80378226 from room 234567
+2018/12/07 10:50:05 Created room 88888
+2018/12/07 10:50:05 Added client 80865333 to room 88888
+2018/12/07 10:50:05 Client 80865333 registered in room 88888
+2018/12/07 10:50:09 Added client 13995250 to room 88888
+2018/12/07 10:50:09 Client 13995250 registered in room 88888
+2018/12/07 10:50:09 Sent queued messages from 80865333 to 13995250
+2018/12/07 10:51:56 Deregistered client 80865333 from room 88888
+2018/12/07 10:51:56 Removed client 80865333 from room 88888
+2018/12/07 10:52:06 Removing client 80865333 from room 88888 due to timeout
+2018/12/07 10:52:19 Created room 456789
+2018/12/07 10:52:19 Added client 74305988 to room 456789
+2018/12/07 10:52:19 Client 74305988 registered in room 456789
+2018/12/07 10:52:29 Deregistered client 13995250 from room 88888
+2018/12/07 10:52:29 Removed client 13995250 from room 88888
+2018/12/07 10:52:29 Removed room 88888
+2018/12/07 10:52:39 Removing client 13995250 from room 88888 due to timeout
+2018/12/07 10:53:06 Deregistered client 35468287 from room 234567
+2018/12/07 10:53:07 Removed client 35468287 from room 234567
+2018/12/07 10:53:07 Removed room 234567
+2018/12/07 10:53:16 Removing client 35468287 from room 234567 due to timeout
+2018/12/07 10:53:59 Added client 58497215 to room 456789
+2018/12/07 10:53:59 Client 58497215 registered in room 456789
+2018/12/07 10:53:59 Sent queued messages from 74305988 to 58497215
+2018/12/07 10:54:23 Removed client 74305988 from room 456789
+2018/12/07 10:54:41 Added client 36210316 to room 456789
+2018/12/07 10:54:41 Client 36210316 registered in room 456789
+2018/12/07 10:54:41 Sent queued messages from 58497215 to 36210316
+2018/12/07 10:55:03 Deregistered client 58497215 from room 456789
+2018/12/07 10:55:03 Removed client 58497215 from room 456789
+2018/12/07 10:55:08 Added client 50706962 to room 456789
+2018/12/07 10:55:08 Client 50706962 registered in room 456789
+2018/12/07 10:55:08 Sent queued messages from 36210316 to 50706962
+2018/12/07 10:55:13 Removing client 58497215 from room 456789 due to timeout
+2018/12/07 10:55:13 Deregistered client 36210316 from room 456789
+2018/12/07 10:55:14 Removed client 36210316 from room 456789
+2018/12/07 10:55:15 Deregistered client 50706962 from room 456789
+2018/12/07 10:55:15 Removed client 50706962 from room 456789
+2018/12/07 10:55:15 Removed room 456789
+2018/12/07 10:55:23 Removing client 36210316 from room 456789 due to timeout
+2018/12/07 10:55:24 Created room 777777
+2018/12/07 10:55:24 Added client 63192664 to room 777777
+2018/12/07 10:55:24 Client 63192664 registered in room 777777
+2018/12/07 10:55:25 Removing client 50706962 from room 456789 due to timeout
+2018/12/07 10:55:38 Added client 09240605 to room 777777
+2018/12/07 10:55:38 Client 09240605 registered in room 777777
+2018/12/07 10:55:38 Sent queued messages from 63192664 to 09240605
+2018/12/07 10:55:48 Deregistered client 09240605 from room 777777
+2018/12/07 10:55:48 Removed client 09240605 from room 777777
+2018/12/07 10:55:58 Removing client 09240605 from room 777777 due to timeout
+2018/12/07 10:56:00 Deregistered client 63192664 from room 777777
+2018/12/07 10:56:00 Removed client 63192664 from room 777777
+2018/12/07 10:56:00 Removed room 777777
+2018/12/07 10:56:10 Removing client 63192664 from room 777777 due to timeout
+2018/12/07 11:00:22 Created room 666666
+2018/12/07 11:00:22 Added client 16868797 to room 666666
+2018/12/07 11:00:22 Client 16868797 registered in room 666666
+2018/12/07 11:00:32 Deregistered client 16868797 from room 666666
+2018/12/07 11:00:32 Removed client 16868797 from room 666666
+2018/12/07 11:00:32 Removed room 666666
+2018/12/07 11:00:42 Removing client 16868797 from room 666666 due to timeout
+2018/12/07 11:00:47 Created room 999999
+2018/12/07 11:00:47 Added client 18484536 to room 999999
+2018/12/07 11:00:47 Client 18484536 registered in room 999999
+2018/12/07 11:00:54 Added client 39311631 to room 999999
+2018/12/07 11:00:54 Client 39311631 registered in room 999999
+2018/12/07 11:00:54 Sent queued messages from 18484536 to 39311631
+2018/12/07 11:01:02 Deregistered client 39311631 from room 999999
+2018/12/07 11:01:12 Removing client 39311631 from room 999999 due to timeout
+2018/12/07 11:01:12 Removed client 39311631 from room 999999
+2018/12/07 11:01:31 Deregistered client 18484536 from room 999999
+2018/12/07 11:01:31 Removed client 18484536 from room 999999
+2018/12/07 11:01:31 Removed room 999999
+2018/12/07 11:01:41 Removing client 18484536 from room 999999 due to timeout
+2018/12/07 11:01:43 Created room 333333
+2018/12/07 11:01:43 Added client 96951325 to room 333333
+2018/12/07 11:01:43 Client 96951325 registered in room 333333
+2018/12/07 11:01:44 Added client 04163465 to room 333333
+2018/12/07 11:01:44 Client 04163465 registered in room 333333
+2018/12/07 11:01:44 Sent queued messages from 96951325 to 04163465
+2018/12/07 11:01:48 Deregistered client 96951325 from room 333333
+2018/12/07 11:01:48 Removed client 96951325 from room 333333
+2018/12/07 11:01:58 Removing client 96951325 from room 333333 due to timeout
+2018/12/07 11:02:09 Deregistered client 04163465 from room 333333
+2018/12/07 11:02:19 Removing client 04163465 from room 333333 due to timeout
+2018/12/07 11:02:19 Removed client 04163465 from room 333333
+2018/12/07 11:02:19 Removed room 333333
+2018/12/07 11:11:46 Created room 987654
+2018/12/07 11:11:46 Added client 76364772 to room 987654
+2018/12/07 11:11:46 Client 76364772 registered in room 987654
+2018/12/07 11:14:47 Deregistered client 76364772 from room 987654
+2018/12/07 11:14:57 Removing client 76364772 from room 987654 due to timeout
+2018/12/07 11:14:57 Removed client 76364772 from room 987654
+2018/12/07 11:14:57 Failed to post BYE to room server http://172.18.59.81:8080: Post http://172.18.59.81:8080/bye/987654/76364772: dial tcp 172.18.59.81:8080: getsockopt: connection refused
+2018/12/07 11:14:57 Removed room 987654
+2018/12/07 11:17:46 Created room 88888
+2018/12/07 11:17:46 Added client 58651909 to room 88888
+2018/12/07 11:17:46 Client 58651909 registered in room 88888
+2018/12/07 11:18:26 Deregistered client 58651909 from room 88888
+2018/12/07 11:18:26 Removed client 58651909 from room 88888
+2018/12/07 11:18:26 Removed room 88888
+2018/12/07 11:18:36 Removing client 58651909 from room 88888 due to timeout
+2018/12/07 11:18:57 Created room 9876543
+2018/12/07 11:18:57 Added client 17661509 to room 9876543
+2018/12/07 11:18:57 Client 17661509 registered in room 9876543
+2018/12/07 11:18:59 Added client 70005109 to room 9876543
+2018/12/07 11:18:59 Client 70005109 registered in room 9876543
+2018/12/07 11:18:59 Sent queued messages from 17661509 to 70005109
+2018/12/07 11:19:30 Removed client 17661509 from room 9876543
+2018/12/07 11:19:45 Deregistered client 70005109 from room 9876543
+2018/12/07 11:19:45 Removed client 70005109 from room 9876543
+2018/12/07 11:19:45 Removed room 9876543
+2018/12/07 11:19:55 Removing client 70005109 from room 9876543 due to timeout
+2018/12/07 11:24:36 Created room 037328052
+2018/12/07 11:24:36 Added client 24369894 to room 037328052
+2018/12/07 11:24:36 Client 24369894 registered in room 037328052
+2018/12/07 11:25:17 Deregistered client 24369894 from room 037328052
+2018/12/07 11:25:17 Removed client 24369894 from room 037328052
+2018/12/07 11:25:17 Removed room 037328052
+2018/12/07 11:25:19 Created room 426645395
+2018/12/07 11:25:19 Added client 29915539 to room 426645395
+2018/12/07 11:25:19 Client 29915539 registered in room 426645395
+2018/12/07 11:25:27 Removing client 24369894 from room 037328052 due to timeout
+2018/12/07 11:33:52 Created room 890440046
+2018/12/07 11:33:52 Added client 16525892 to room 890440046
+2018/12/07 11:33:52 Client 16525892 registered in room 890440046
+2018/12/07 11:35:03 Deregistered client 16525892 from room 890440046
+2018/12/07 11:35:03 Removed client 16525892 from room 890440046
+2018/12/07 11:35:03 Removed room 890440046
+2018/12/07 11:35:13 Removing client 16525892 from room 890440046 due to timeout
+2018/12/07 11:35:25 Created room 956512131
+2018/12/07 11:35:25 Added client 89377711 to room 956512131
+2018/12/07 11:35:25 Client 89377711 registered in room 956512131
+2018/12/07 11:36:11 Deregistered client 29915539 from room 426645395
+2018/12/07 11:36:11 Removed client 29915539 from room 426645395
+2018/12/07 11:36:11 Removed room 426645395
+2018/12/07 11:36:21 Removing client 29915539 from room 426645395 due to timeout
+2018/12/07 11:36:31 Added client 63349100 to room 956512131
+2018/12/07 11:36:31 Client 63349100 registered in room 956512131
+2018/12/07 11:36:31 Sent queued messages from 89377711 to 63349100
+2018/12/07 11:36:46 Deregistered client 63349100 from room 956512131
+2018/12/07 11:36:46 Removed client 63349100 from room 956512131
+2018/12/07 11:36:56 Removing client 63349100 from room 956512131 due to timeout
+2018/12/07 11:38:00 Deregistered client 89377711 from room 956512131
+2018/12/07 11:38:01 Removed client 89377711 from room 956512131
+2018/12/07 11:38:01 Removed room 956512131
+2018/12/07 11:38:10 Removing client 89377711 from room 956512131 due to timeout
+2018/12/07 11:38:46 Created room 80806
+2018/12/07 11:38:46 Added client 59645798 to room 80806
+2018/12/07 11:38:46 Client 59645798 registered in room 80806
+2018/12/07 11:38:54 Deregistered client 59645798 from room 80806
+2018/12/07 11:38:54 Removed client 59645798 from room 80806
+2018/12/07 11:38:54 Removed room 80806
+2018/12/07 11:39:04 Removing client 59645798 from room 80806 due to timeout
+2018/12/07 11:39:07 Created room 351317691
+2018/12/07 11:39:07 Added client 13539878 to room 351317691
+2018/12/07 11:39:07 Client 13539878 registered in room 351317691
+2018/12/07 11:39:18 Created room 23456
+2018/12/07 11:39:18 Added client 53492299 to room 23456
+2018/12/07 11:39:18 Client 53492299 registered in room 23456
+2018/12/07 11:40:30 Added client 45311155 to room 23456
+2018/12/07 11:40:30 Client 45311155 registered in room 23456
+2018/12/07 11:40:30 Sent queued messages from 53492299 to 45311155
+2018/12/07 11:41:31 Deregistered client 45311155 from room 23456
+2018/12/07 11:41:31 Removed client 45311155 from room 23456
+2018/12/07 11:41:41 Removing client 45311155 from room 23456 due to timeout
+2018/12/07 11:41:49 Added client 79101295 to room 23456
+2018/12/07 11:41:49 Client 79101295 registered in room 23456
+2018/12/07 11:41:49 Sent queued messages from 53492299 to 79101295
+2018/12/07 11:41:59 Deregistered client 53492299 from room 23456
+2018/12/07 11:41:59 Removed client 53492299 from room 23456
+2018/12/07 11:42:09 Removing client 53492299 from room 23456 due to timeout
+2018/12/07 11:42:09 Added client 11977840 to room 23456
+2018/12/07 11:42:09 Client 11977840 registered in room 23456
+2018/12/07 11:42:09 Sent queued messages from 79101295 to 11977840
+2018/12/07 11:42:29 Deregistered client 79101295 from room 23456
+2018/12/07 11:42:29 Removed client 79101295 from room 23456
+2018/12/07 11:42:39 Removing client 79101295 from room 23456 due to timeout
+2018/12/07 12:00:32 Deregistered client 11977840 from room 23456
+2018/12/07 12:00:42 Removing client 11977840 from room 23456 due to timeout
+2018/12/07 12:00:42 Removed client 11977840 from room 23456
+2018/12/07 12:00:42 Removed room 23456
+2018/12/07 12:09:09 Deregistered client 13539878 from room 351317691
+2018/12/07 12:09:19 Removing client 13539878 from room 351317691 due to timeout
+2018/12/07 12:09:19 Removed client 13539878 from room 351317691
+2018/12/07 12:09:19 Removed room 351317691
+2018/12/07 12:09:59 Created room 147258
+2018/12/07 12:09:59 Added client 43671857 to room 147258
+2018/12/07 12:09:59 Client 43671857 registered in room 147258
+2018/12/07 12:10:21 Added client 86790317 to room 147258
+2018/12/07 12:10:21 Client 86790317 registered in room 147258
+2018/12/07 12:10:21 Sent queued messages from 43671857 to 86790317
+2018/12/07 12:13:22 Deregistered client 86790317 from room 147258
+2018/12/07 12:13:22 Deregistered client 43671857 from room 147258
+2018/12/07 12:13:32 Removing client 86790317 from room 147258 due to timeout
+2018/12/07 12:13:32 Removed client 86790317 from room 147258
+2018/12/07 12:13:32 Removing client 43671857 from room 147258 due to timeout
+2018/12/07 12:13:32 Removed client 43671857 from room 147258
+2018/12/07 12:13:32 Removed room 147258
+2018/12/07 13:48:30 Created room 123456
+2018/12/07 13:48:30 Added client 24634485 to room 123456
+2018/12/07 13:48:30 Client 24634485 registered in room 123456
+2018/12/07 13:48:33 Added client 72073452 to room 123456
+2018/12/07 13:48:33 Client 72073452 registered in room 123456
+2018/12/07 13:48:33 Sent queued messages from 24634485 to 72073452
+2018/12/07 13:49:00 Deregistered client 72073452 from room 123456
+2018/12/07 13:49:00 Removed client 72073452 from room 123456
+2018/12/07 13:49:08 Added client 86475529 to room 123456
+2018/12/07 13:49:08 Client 86475529 registered in room 123456
+2018/12/07 13:49:08 Sent queued messages from 24634485 to 86475529
+2018/12/07 13:49:10 Removing client 72073452 from room 123456 due to timeout
+2018/12/07 13:49:15 Deregistered client 24634485 from room 123456
+2018/12/07 13:49:15 Removed client 24634485 from room 123456
+2018/12/07 13:49:25 Removing client 24634485 from room 123456 due to timeout
+2018/12/07 13:49:33 Deregistered client 86475529 from room 123456
+2018/12/07 13:49:33 Removed client 86475529 from room 123456
+2018/12/07 13:49:33 Removed room 123456
+2018/12/07 13:49:40 Created room 456789
+2018/12/07 13:49:40 Added client 98587348 to room 456789
+2018/12/07 13:49:40 Client 98587348 registered in room 456789
+2018/12/07 13:49:42 Added client 17075697 to room 456789
+2018/12/07 13:49:42 Client 17075697 registered in room 456789
+2018/12/07 13:49:42 Sent queued messages from 98587348 to 17075697
+2018/12/07 13:49:43 Removing client 86475529 from room 123456 due to timeout
+2018/12/07 13:50:09 Deregistered client 17075697 from room 456789
+2018/12/07 13:50:09 Removed client 17075697 from room 456789
+2018/12/07 13:50:11 Deregistered client 98587348 from room 456789
+2018/12/07 13:50:11 Removed client 98587348 from room 456789
+2018/12/07 13:50:11 Removed room 456789
+2018/12/07 13:50:19 Removing client 17075697 from room 456789 due to timeout
+2018/12/07 13:50:21 Removing client 98587348 from room 456789 due to timeout
+2018/12/07 14:39:06 Created room 987654
+2018/12/07 14:39:06 Added client 73546382 to room 987654
+2018/12/07 14:39:06 Client 73546382 registered in room 987654
+2018/12/07 14:39:09 Added client 93083545 to room 987654
+2018/12/07 14:39:09 Client 93083545 registered in room 987654
+2018/12/07 14:39:09 Sent queued messages from 73546382 to 93083545
+2018/12/07 14:39:18 Deregistered client 93083545 from room 987654
+2018/12/07 14:39:19 Removed client 93083545 from room 987654
+2018/12/07 14:39:28 Removing client 93083545 from room 987654 due to timeout
+2018/12/07 14:39:36 Added client 40808344 to room 987654
+2018/12/07 14:39:36 Client 40808344 registered in room 987654
+2018/12/07 14:39:36 Sent queued messages from 73546382 to 40808344
+2018/12/07 14:39:56 Deregistered client 73546382 from room 987654
+2018/12/07 14:39:56 Removed client 73546382 from room 987654
+2018/12/07 14:40:06 Removing client 73546382 from room 987654 due to timeout
+2018/12/07 14:41:31 Deregistered client 40808344 from room 987654
+2018/12/07 14:41:31 Removed client 40808344 from room 987654
+2018/12/07 14:41:31 Removed room 987654
+2018/12/07 14:41:41 Removing client 40808344 from room 987654 due to timeout
+2018/12/07 14:48:11 Created room 56789
+2018/12/07 14:48:11 Added client 79123732 to room 56789
+2018/12/07 14:48:11 Client 79123732 registered in room 56789
+2018/12/07 14:48:19 Added client 70388440 to room 56789
+2018/12/07 14:48:19 Client 70388440 registered in room 56789
+2018/12/07 14:48:19 Sent queued messages from 79123732 to 70388440
+2018/12/07 14:48:30 Deregistered client 70388440 from room 56789
+2018/12/07 14:48:30 Removed client 70388440 from room 56789
+2018/12/07 14:48:34 Deregistered client 79123732 from room 56789
+2018/12/07 14:48:34 Removed client 79123732 from room 56789
+2018/12/07 14:48:34 Removed room 56789
+2018/12/07 14:48:40 Removing client 70388440 from room 56789 due to timeout
+2018/12/07 14:48:44 Removing client 79123732 from room 56789 due to timeout
+2018/12/07 14:50:45 Created room 23456
+2018/12/07 14:50:45 Added client 36266766 to room 23456
+2018/12/07 14:50:45 Client 36266766 registered in room 23456
+2018/12/07 14:50:47 Added client 88150292 to room 23456
+2018/12/07 14:50:47 Client 88150292 registered in room 23456
+2018/12/07 14:50:47 Sent queued messages from 36266766 to 88150292
+2018/12/07 14:51:18 Deregistered client 36266766 from room 23456
+2018/12/07 14:51:18 Removed client 36266766 from room 23456
+2018/12/07 14:51:28 Removing client 36266766 from room 23456 due to timeout
+2018/12/07 15:00:06 Deregistered client 88150292 from room 23456
+2018/12/07 15:00:07 Removed client 88150292 from room 23456
+2018/12/07 15:00:07 Removed room 23456
+2018/12/07 15:00:09 Created room 703691139
+2018/12/07 15:00:09 Added client 22390232 to room 703691139
+2018/12/07 15:00:09 Client 22390232 registered in room 703691139
+2018/12/07 15:00:14 Deregistered client 22390232 from room 703691139
+2018/12/07 15:00:14 Removed client 22390232 from room 703691139
+2018/12/07 15:00:14 Removed room 703691139
+2018/12/07 15:00:16 Removing client 88150292 from room 23456 due to timeout
+2018/12/07 15:00:22 Created room 123456
+2018/12/07 15:00:22 Added client 92564502 to room 123456
+2018/12/07 15:00:22 Client 92564502 registered in room 123456
+2018/12/07 15:00:24 Removing client 22390232 from room 703691139 due to timeout
+2018/12/07 15:00:28 Added client 97051295 to room 123456
+2018/12/07 15:00:28 Client 97051295 registered in room 123456
+2018/12/07 15:00:28 Sent queued messages from 92564502 to 97051295
+2018/12/07 15:01:07 Deregistered client 97051295 from room 123456
+2018/12/07 15:01:07 Removed client 97051295 from room 123456
+2018/12/07 15:01:15 Added client 88661074 to room 123456
+2018/12/07 15:01:15 Client 88661074 registered in room 123456
+2018/12/07 15:01:15 Sent queued messages from 92564502 to 88661074
+2018/12/07 15:01:17 Removing client 97051295 from room 123456 due to timeout
+2018/12/07 15:01:35 Deregistered client 92564502 from room 123456
+2018/12/07 15:01:35 Removed client 92564502 from room 123456
+2018/12/07 15:01:45 Removing client 92564502 from room 123456 due to timeout
+2018/12/07 15:01:45 Created room 46321
+2018/12/07 15:01:45 Added client 67298201 to room 46321
+2018/12/07 15:01:45 Client 67298201 registered in room 46321
+2018/12/07 15:01:52 Deregistered client 88661074 from room 123456
+2018/12/07 15:01:52 Removed client 88661074 from room 123456
+2018/12/07 15:01:52 Removed room 123456
+2018/12/07 15:01:59 Added client 68896784 to room 46321
+2018/12/07 15:01:59 Client 68896784 registered in room 46321
+2018/12/07 15:01:59 Sent queued messages from 67298201 to 68896784
+2018/12/07 15:02:02 Removing client 88661074 from room 123456 due to timeout
+2018/12/07 15:02:34 Deregistered client 68896784 from room 46321
+2018/12/07 15:02:34 Removed client 68896784 from room 46321
+2018/12/07 15:02:44 Removing client 68896784 from room 46321 due to timeout
+2018/12/07 15:02:44 Deregistered client 67298201 from room 46321
+2018/12/07 15:02:44 Removed client 67298201 from room 46321
+2018/12/07 15:02:44 Removed room 46321
+2018/12/07 15:02:54 Removing client 67298201 from room 46321 due to timeout
+2018/12/07 15:13:14 Created room 147258
+2018/12/07 15:13:14 Added client 31986452 to room 147258
+2018/12/07 15:13:14 Client 31986452 registered in room 147258
+2018/12/07 15:13:17 Added client 49526996 to room 147258
+2018/12/07 15:13:17 Client 49526996 registered in room 147258
+2018/12/07 15:13:17 Sent queued messages from 31986452 to 49526996
+2018/12/07 15:14:05 Deregistered client 49526996 from room 147258
+2018/12/07 15:14:05 Removed client 49526996 from room 147258
+2018/12/07 15:14:12 Deregistered client 31986452 from room 147258
+2018/12/07 15:14:13 Removed client 31986452 from room 147258
+2018/12/07 15:14:13 Removed room 147258
+2018/12/07 15:14:15 Removing client 49526996 from room 147258 due to timeout
+2018/12/07 15:14:20 Created room 123456
+2018/12/07 15:14:20 Added client 14308617 to room 123456
+2018/12/07 15:14:20 Client 14308617 registered in room 123456
+2018/12/07 15:14:22 Removing client 31986452 from room 147258 due to timeout
+2018/12/07 15:14:32 Created room 56552
+2018/12/07 15:14:32 Added client 13596038 to room 56552
+2018/12/07 15:14:32 Client 13596038 registered in room 56552
+2018/12/07 15:14:58 Deregistered client 13596038 from room 56552
+2018/12/07 15:14:58 Removed client 13596038 from room 56552
+2018/12/07 15:14:58 Removed room 56552
+2018/12/07 15:15:08 Removing client 13596038 from room 56552 due to timeout
+2018/12/07 15:15:18 Added client 43076492 to room 123456
+2018/12/07 15:15:18 Client 43076492 registered in room 123456
+2018/12/07 15:15:18 Sent queued messages from 14308617 to 43076492
+2018/12/07 15:15:30 Deregistered client 14308617 from room 123456
+2018/12/07 15:15:30 Removed client 14308617 from room 123456
+2018/12/07 15:15:40 Removing client 14308617 from room 123456 due to timeout
+2018/12/07 15:15:53 Deregistered client 43076492 from room 123456
+2018/12/07 15:15:53 Removed client 43076492 from room 123456
+2018/12/07 15:15:53 Removed room 123456
+2018/12/07 15:15:56 Created room 778899
+2018/12/07 15:15:56 Added client 90910433 to room 778899
+2018/12/07 15:15:56 Client 90910433 registered in room 778899
+2018/12/07 15:15:58 Added client 45318307 to room 778899
+2018/12/07 15:15:58 Client 45318307 registered in room 778899
+2018/12/07 15:15:58 Sent queued messages from 90910433 to 45318307
+2018/12/07 15:16:03 Removing client 43076492 from room 123456 due to timeout
+2018/12/07 15:16:11 Deregistered client 90910433 from room 778899
+2018/12/07 15:16:11 Removed client 90910433 from room 778899
+2018/12/07 15:16:19 Deregistered client 45318307 from room 778899
+2018/12/07 15:16:19 Removed client 45318307 from room 778899
+2018/12/07 15:16:19 Removed room 778899
+2018/12/07 15:16:20 Created room 778899
+2018/12/07 15:16:20 Added client 49768498 to room 778899
+2018/12/07 15:16:20 Client 49768498 registered in room 778899
+2018/12/07 15:16:21 Removing client 90910433 from room 778899 due to timeout
+2018/12/07 15:16:29 Removing client 45318307 from room 778899 due to timeout
+2018/12/07 15:20:54 Created room 389191662
+2018/12/07 15:20:54 Added client 45760053 to room 389191662
+2018/12/07 15:20:54 Client 45760053 registered in room 389191662
+2018/12/07 15:21:01 Deregistered client 45760053 from room 389191662
+2018/12/07 15:21:02 Removed client 45760053 from room 389191662
+2018/12/07 15:21:02 Removed room 389191662
+2018/12/07 15:21:11 Removing client 45760053 from room 389191662 due to timeout
+2018/12/07 15:21:14 Removed client 49768498 from room 778899
+2018/12/07 15:21:14 Removed room 778899
+2018/12/07 15:21:23 Created room 45678
+2018/12/07 15:21:23 Added client 95093898 to room 45678
+2018/12/07 15:21:23 Client 95093898 registered in room 45678
+2018/12/07 15:21:38 Added client 91442835 to room 45678
+2018/12/07 15:21:38 Client 91442835 registered in room 45678
+2018/12/07 15:21:38 Sent queued messages from 95093898 to 91442835
+2018/12/07 15:21:49 Deregistered client 95093898 from room 45678
+2018/12/07 15:21:49 Removed client 95093898 from room 45678
+2018/12/07 15:21:59 Removing client 95093898 from room 45678 due to timeout
+2018/12/07 15:22:07 Added client 69793309 to room 45678
+2018/12/07 15:22:07 Client 69793309 registered in room 45678
+2018/12/07 15:22:07 Sent queued messages from 91442835 to 69793309
+2018/12/07 15:22:24 Deregistered client 69793309 from room 45678
+2018/12/07 15:22:24 Removed client 69793309 from room 45678
+2018/12/07 15:22:33 Added client 32733528 to room 45678
+2018/12/07 15:22:33 Client 32733528 registered in room 45678
+2018/12/07 15:22:33 Sent queued messages from 91442835 to 32733528
+2018/12/07 15:22:34 Removing client 69793309 from room 45678 due to timeout
+2018/12/07 15:22:46 Deregistered client 91442835 from room 45678
+2018/12/07 15:22:47 Removed client 91442835 from room 45678
+2018/12/07 15:22:56 Removing client 91442835 from room 45678 due to timeout
+2018/12/07 15:25:15 Deregistered client 32733528 from room 45678
+2018/12/07 15:25:25 Removing client 32733528 from room 45678 due to timeout
+2018/12/07 15:25:25 Removed client 32733528 from room 45678
+2018/12/07 15:25:25 Removed room 45678
+2018/12/07 16:34:57 Created room 781964693
+2018/12/07 16:34:57 Added client 81222619 to room 781964693
+2018/12/07 16:34:57 Client 81222619 registered in room 781964693
+2018/12/07 16:35:29 Deregistered client 81222619 from room 781964693
+2018/12/07 16:35:29 Removed client 81222619 from room 781964693
+2018/12/07 16:35:29 Removed room 781964693
+2018/12/07 16:35:36 Created room 147369
+2018/12/07 16:35:36 Added client 92920377 to room 147369
+2018/12/07 16:35:36 Client 92920377 registered in room 147369
+2018/12/07 16:35:38 Added client 88440344 to room 147369
+2018/12/07 16:35:38 Client 88440344 registered in room 147369
+2018/12/07 16:35:38 Sent queued messages from 92920377 to 88440344
+2018/12/07 16:35:39 Removing client 81222619 from room 781964693 due to timeout
+2018/12/07 16:35:54 Removed client 88440344 from room 147369
+2018/12/07 16:35:58 Deregistered client 92920377 from room 147369
+2018/12/07 16:35:58 Removed client 92920377 from room 147369
+2018/12/07 16:35:58 Removed room 147369
+2018/12/07 16:36:08 Removing client 92920377 from room 147369 due to timeout
+2018/12/07 16:45:59 Created room 618220
+2018/12/07 16:45:59 Added client 36781237 to room 618220
+2018/12/07 16:45:59 Client 36781237 registered in room 618220
+2018/12/07 16:46:13 Added client 60937225 to room 618220
+2018/12/07 16:46:13 Client 60937225 registered in room 618220
+2018/12/07 16:46:13 Sent queued messages from 36781237 to 60937225
+2018/12/07 16:46:24 Deregistered client 60937225 from room 618220
+2018/12/07 16:46:24 Removed client 60937225 from room 618220
+2018/12/07 16:46:27 Deregistered client 36781237 from room 618220
+2018/12/07 16:46:27 Removed client 36781237 from room 618220
+2018/12/07 16:46:27 Removed room 618220
+2018/12/07 16:46:34 Removing client 60937225 from room 618220 due to timeout
+2018/12/07 16:46:37 Removing client 36781237 from room 618220 due to timeout

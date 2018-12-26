@@ -1,0 +1,651 @@
+INFO     2018-12-07 01:38:08,335 sdk_update_checker.py:231] Checking for updates to the SDK.
+INFO     2018-12-07 01:38:26,349 sdk_update_checker.py:247] Update check failed: <urlopen error [Errno 99] Cannot assign requested address>
+INFO     2018-12-07 01:38:26,374 api_server.py:268] Starting API server at: http://localhost:41803
+INFO     2018-12-07 01:38:26,379 dispatcher.py:199] Starting module "default" running at: http://172.18.59.81:8080
+INFO     2018-12-07 01:38:26,380 admin_server.py:116] Starting admin server at: http://localhost:8000
+INFO     2018-12-07 01:39:01,323 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 01:39:01,326 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:39:01,338 module.py:806] default: "GET / HTTP/1.1" 200 8237
+INFO     2018-12-07 01:39:01,390 module.py:806] default: "GET /css/main.css HTTP/1.1" 304 -
+INFO     2018-12-07 01:39:01,423 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.1" 304 -
+INFO     2018-12-07 01:43:07,252 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 01:43:07,254 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:43:07,257 module.py:806] default: "GET / HTTP/1.1" 200 8237
+INFO     2018-12-07 01:43:07,310 module.py:806] default: "GET /css/main.css HTTP/1.1" 304 -
+INFO     2018-12-07 01:43:07,340 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.1" 304 -
+INFO     2018-12-07 01:43:07,535 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.1" 200 31806
+INFO     2018-12-07 01:43:21,837 apprtc.py:401] Added client 13367094 in room 666, retries = 0
+INFO     2018-12-07 01:43:21,838 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:43:21,839 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:43:21,839 apprtc.py:544] User 13367094 joined room 666
+INFO     2018-12-07 01:43:21,839 apprtc.py:545] Room 666 has state ['13367094']
+INFO     2018-12-07 01:43:21,842 module.py:806] default: "POST /join/666 HTTP/1.1" 200 882
+INFO     2018-12-07 01:43:22,249 apprtc.py:469] Saved message for client 13367094:{True, 1} in room 666, retries=0
+INFO     2018-12-07 01:43:22,251 module.py:806] default: "POST /message/666/13367094 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:22,259 apprtc.py:469] Saved message for client 13367094:{True, 2} in room 666, retries=0
+INFO     2018-12-07 01:43:22,261 module.py:806] default: "POST /message/666/13367094 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:22,368 apprtc.py:469] Saved message for client 13367094:{True, 3} in room 666, retries=0
+INFO     2018-12-07 01:43:22,371 module.py:806] default: "POST /message/666/13367094 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:29,950 apprtc.py:401] Added client 87389934 in room 6665, retries = 0
+INFO     2018-12-07 01:43:29,950 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:43:29,952 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:43:29,952 apprtc.py:544] User 87389934 joined room 6665
+INFO     2018-12-07 01:43:29,952 apprtc.py:545] Room 6665 has state ['87389934']
+INFO     2018-12-07 01:43:29,955 module.py:806] default: "POST /join/6665 HTTP/1.1" 200 884
+INFO     2018-12-07 01:43:30,263 apprtc.py:469] Saved message for client 87389934:{True, 1} in room 6665, retries=0
+INFO     2018-12-07 01:43:30,265 module.py:806] default: "POST /message/6665/87389934 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:31,222 apprtc.py:469] Saved message for client 87389934:{True, 2} in room 6665, retries=0
+INFO     2018-12-07 01:43:31,225 module.py:806] default: "POST /message/6665/87389934 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:40,789 apprtc.py:439] Removed client 13367094 from room 666, retries=0
+INFO     2018-12-07 01:43:40,790 apprtc.py:478] Room 666 has state None
+INFO     2018-12-07 01:43:40,790 module.py:806] default: "POST /bye/666/13367094 HTTP/1.1" 404 52
+INFO     2018-12-07 01:43:40,792 module.py:806] default: "POST /leave/666/13367094 HTTP/1.1" 200 -
+INFO     2018-12-07 01:43:43,874 apprtc.py:439] Removed client 87389934 from room 6665, retries=0
+INFO     2018-12-07 01:43:43,875 apprtc.py:478] Room 6665 has state None
+INFO     2018-12-07 01:43:43,879 module.py:806] default: "POST /bye/6665/87389934 HTTP/1.1" 404 52
+INFO     2018-12-07 01:43:43,880 module.py:806] default: "POST /leave/6665/87389934 HTTP/1.1" 200 -
+INFO     2018-12-07 01:43:51,850 apprtc.py:401] Added client 71902632 in room 6665, retries = 0
+INFO     2018-12-07 01:43:51,850 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:43:51,851 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:43:51,852 apprtc.py:544] User 71902632 joined room 6665
+INFO     2018-12-07 01:43:51,852 apprtc.py:545] Room 6665 has state ['71902632']
+INFO     2018-12-07 01:43:51,854 module.py:806] default: "POST /join/6665 HTTP/1.1" 200 884
+INFO     2018-12-07 01:43:52,137 apprtc.py:469] Saved message for client 71902632:{True, 1} in room 6665, retries=0
+INFO     2018-12-07 01:43:52,141 module.py:806] default: "POST /message/6665/71902632 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:52,142 apprtc.py:469] Saved message for client 71902632:{True, 2} in room 6665, retries=1
+INFO     2018-12-07 01:43:52,144 module.py:806] default: "POST /message/6665/71902632 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:52,340 apprtc.py:469] Saved message for client 71902632:{True, 3} in room 6665, retries=0
+INFO     2018-12-07 01:43:52,342 module.py:806] default: "POST /message/6665/71902632 HTTP/1.1" 200 21
+INFO     2018-12-07 01:43:56,086 apprtc.py:401] Added client 09264881 in room 6665, retries = 0
+WARNING  2018-12-07 01:43:56,086 analytics.py:38] Unable to build BigQuery API object. Logging disabled.
+INFO     2018-12-07 01:43:56,086 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '6665', u'timestamp': '2018-12-07T01:43:56.086743', u'host': '119.23.39.109:8080'}}]}
+INFO     2018-12-07 01:43:56,087 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:43:56,088 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:43:56,088 apprtc.py:544] User 09264881 joined room 6665
+INFO     2018-12-07 01:43:56,089 apprtc.py:545] Room 6665 has state ['71902632', '09264881']
+INFO     2018-12-07 01:43:56,091 module.py:806] default: "POST /join/6665 HTTP/1.1" 200 4625
+INFO     2018-12-07 01:44:07,971 module.py:806] default: "POST /bye/6665/09264881 HTTP/1.1" 404 52
+INFO     2018-12-07 01:44:10,426 apprtc.py:401] Added client 61930634 in room 6667, retries = 0
+INFO     2018-12-07 01:44:10,426 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:44:10,428 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:44:10,428 apprtc.py:544] User 61930634 joined room 6667
+INFO     2018-12-07 01:44:10,428 apprtc.py:545] Room 6667 has state ['61930634']
+INFO     2018-12-07 01:44:10,431 module.py:806] default: "POST /join/6667 HTTP/1.1" 200 884
+INFO     2018-12-07 01:44:10,840 apprtc.py:469] Saved message for client 61930634:{True, 1} in room 6667, retries=0
+INFO     2018-12-07 01:44:10,845 module.py:806] default: "POST /message/6667/61930634 HTTP/1.1" 200 21
+INFO     2018-12-07 01:44:10,846 apprtc.py:469] Saved message for client 61930634:{True, 2} in room 6667, retries=1
+INFO     2018-12-07 01:44:10,848 module.py:806] default: "POST /message/6667/61930634 HTTP/1.1" 200 21
+INFO     2018-12-07 01:44:10,996 apprtc.py:469] Saved message for client 61930634:{True, 3} in room 6667, retries=0
+INFO     2018-12-07 01:44:10,998 module.py:806] default: "POST /message/6667/61930634 HTTP/1.1" 200 21
+INFO     2018-12-07 01:44:13,757 module.py:806] default: "POST /bye/6665/71902632 HTTP/1.1" 404 52
+INFO     2018-12-07 01:44:17,087 apprtc.py:401] Added client 13482084 in room 6667, retries = 0
+INFO     2018-12-07 01:44:17,088 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '6667', u'timestamp': '2018-12-07T01:44:17.088205', u'host': '119.23.39.109:8080'}}]}
+INFO     2018-12-07 01:44:17,088 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:44:17,090 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:44:17,090 apprtc.py:544] User 13482084 joined room 6667
+INFO     2018-12-07 01:44:17,090 apprtc.py:545] Room 6667 has state ['13482084', '61930634']
+INFO     2018-12-07 01:44:17,092 module.py:806] default: "POST /join/6667 HTTP/1.1" 200 4619
+INFO     2018-12-07 01:44:29,114 module.py:806] default: "POST /bye/6667/13482084 HTTP/1.1" 404 52
+INFO     2018-12-07 01:44:42,172 module.py:806] default: "POST /bye/6667/61930634 HTTP/1.1" 404 52
+INFO     2018-12-07 01:44:54,300 apprtc.py:401] Added client 07803647 in room 456, retries = 0
+INFO     2018-12-07 01:44:54,301 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:44:54,302 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:44:54,302 apprtc.py:544] User 07803647 joined room 456
+INFO     2018-12-07 01:44:54,303 apprtc.py:545] Room 456 has state ['07803647']
+INFO     2018-12-07 01:44:54,305 module.py:806] default: "POST /join/456 HTTP/1.1" 200 882
+INFO     2018-12-07 01:44:54,715 apprtc.py:469] Saved message for client 07803647:{True, 1} in room 456, retries=0
+INFO     2018-12-07 01:44:54,722 module.py:806] default: "POST /message/456/07803647 HTTP/1.1" 200 21
+INFO     2018-12-07 01:44:54,722 apprtc.py:469] Saved message for client 07803647:{True, 2} in room 456, retries=0
+INFO     2018-12-07 01:44:54,724 module.py:806] default: "POST /message/456/07803647 HTTP/1.1" 200 21
+INFO     2018-12-07 01:44:54,847 apprtc.py:469] Saved message for client 07803647:{True, 3} in room 456, retries=0
+INFO     2018-12-07 01:44:54,849 module.py:806] default: "POST /message/456/07803647 HTTP/1.1" 200 21
+INFO     2018-12-07 01:45:00,146 apprtc.py:401] Added client 19361078 in room 456, retries = 0
+INFO     2018-12-07 01:45:00,146 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '456', u'timestamp': '2018-12-07T01:45:00.146945', u'host': '119.23.39.109:8080'}}]}
+INFO     2018-12-07 01:45:00,147 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:45:00,148 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:45:00,149 apprtc.py:544] User 19361078 joined room 456
+INFO     2018-12-07 01:45:00,149 apprtc.py:545] Room 456 has state ['07803647', '19361078']
+INFO     2018-12-07 01:45:00,152 module.py:806] default: "POST /join/456 HTTP/1.1" 200 4620
+INFO     2018-12-07 01:45:11,801 module.py:806] default: "POST /bye/456/19361078 HTTP/1.1" 404 52
+INFO     2018-12-07 01:45:20,026 module.py:806] default: "POST /bye/456/07803647 HTTP/1.1" 404 52
+INFO     2018-12-07 01:46:08,606 apprtc.py:401] Added client 79783006 in room 789, retries = 0
+INFO     2018-12-07 01:46:08,607 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 01:46:08,608 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 01:46:08,608 apprtc.py:544] User 79783006 joined room 789
+INFO     2018-12-07 01:46:08,609 apprtc.py:545] Room 789 has state ['79783006']
+INFO     2018-12-07 01:46:08,611 module.py:806] default: "POST /join/789 HTTP/1.1" 200 882
+INFO     2018-12-07 01:46:08,884 apprtc.py:469] Saved message for client 79783006:{True, 1} in room 789, retries=0
+INFO     2018-12-07 01:46:08,887 module.py:806] default: "POST /message/789/79783006 HTTP/1.1" 200 21
+INFO     2018-12-07 01:46:08,924 apprtc.py:469] Saved message for client 79783006:{True, 2} in room 789, retries=0
+INFO     2018-12-07 01:46:08,927 module.py:806] default: "POST /message/789/79783006 HTTP/1.1" 200 21
+INFO     2018-12-07 01:46:39,004 apprtc.py:538] Error adding client to room: FULL, room_state=['07803647', '19361078']
+INFO     2018-12-07 01:46:39,007 module.py:806] default: "POST /join/456 HTTP/1.1" 200 46
+INFO     2018-12-07 01:46:42,787 module.py:806] default: "POST /bye/789/79783006 HTTP/1.1" 404 52
+INFO     2018-12-07 01:46:42,788 apprtc.py:439] Removed client 79783006 from room 789, retries=0
+INFO     2018-12-07 01:46:42,789 apprtc.py:478] Room 789 has state None
+INFO     2018-12-07 01:46:42,791 module.py:806] default: "POST /leave/789/79783006 HTTP/1.1" 200 -
+INFO     2018-12-07 02:02:35,704 apprtc.py:538] Error adding client to room: FULL, room_state=['07803647', '19361078']
+INFO     2018-12-07 02:02:35,707 module.py:806] default: "POST /join/456 HTTP/1.1" 200 46
+INFO     2018-12-07 02:02:41,924 apprtc.py:401] Added client 26338728 in room 4567, retries = 0
+INFO     2018-12-07 02:02:41,924 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:02:41,925 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:02:41,926 apprtc.py:544] User 26338728 joined room 4567
+INFO     2018-12-07 02:02:41,926 apprtc.py:545] Room 4567 has state ['26338728']
+INFO     2018-12-07 02:02:41,928 module.py:806] default: "POST /join/4567 HTTP/1.1" 200 884
+INFO     2018-12-07 02:02:42,321 apprtc.py:469] Saved message for client 26338728:{True, 1} in room 4567, retries=0
+INFO     2018-12-07 02:02:42,323 module.py:806] default: "POST /message/4567/26338728 HTTP/1.1" 200 21
+INFO     2018-12-07 02:02:42,401 apprtc.py:469] Saved message for client 26338728:{True, 2} in room 4567, retries=0
+INFO     2018-12-07 02:02:42,403 module.py:806] default: "POST /message/4567/26338728 HTTP/1.1" 200 21
+INFO     2018-12-07 02:02:42,566 apprtc.py:469] Saved message for client 26338728:{True, 3} in room 4567, retries=0
+INFO     2018-12-07 02:02:42,569 module.py:806] default: "POST /message/4567/26338728 HTTP/1.1" 200 21
+INFO     2018-12-07 02:02:47,916 apprtc.py:401] Added client 72258690 in room 4567, retries = 0
+INFO     2018-12-07 02:02:47,916 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '4567', u'timestamp': '2018-12-07T02:02:47.916650', u'host': '119.23.39.109:8080'}}]}
+INFO     2018-12-07 02:02:47,916 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:02:47,918 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:02:47,918 apprtc.py:544] User 72258690 joined room 4567
+INFO     2018-12-07 02:02:47,918 apprtc.py:545] Room 4567 has state ['26338728', '72258690']
+INFO     2018-12-07 02:02:47,921 module.py:806] default: "POST /join/4567 HTTP/1.1" 200 4616
+INFO     2018-12-07 02:03:03,570 apprtc.py:439] Removed client 26338728 from room 4567, retries=0
+INFO     2018-12-07 02:03:03,570 apprtc.py:478] Room 4567 has state ['72258690']
+INFO     2018-12-07 02:03:03,570 module.py:806] default: "POST /bye/4567/26338728 HTTP/1.1" 404 52
+INFO     2018-12-07 02:03:03,572 module.py:806] default: "POST /leave/4567/26338728 HTTP/1.1" 200 -
+INFO     2018-12-07 02:03:03,664 module.py:806] default: "POST /bye/4567/72258690 HTTP/1.1" 404 52
+INFO     2018-12-07 02:03:03,699 apprtc.py:439] Removed client 72258690 from room 4567, retries=0
+INFO     2018-12-07 02:03:03,699 apprtc.py:478] Room 4567 has state None
+INFO     2018-12-07 02:03:03,701 module.py:806] default: "POST /leave/4567/72258690 HTTP/1.1" 200 -
+INFO     2018-12-07 02:09:27,519 apprtc.py:401] Added client 11057839 in room 4567, retries = 0
+INFO     2018-12-07 02:09:27,520 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:09:27,521 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:09:27,522 apprtc.py:544] User 11057839 joined room 4567
+INFO     2018-12-07 02:09:27,522 apprtc.py:545] Room 4567 has state ['11057839']
+INFO     2018-12-07 02:09:27,524 module.py:806] default: "POST /join/4567 HTTP/1.1" 200 884
+INFO     2018-12-07 02:09:27,770 apprtc.py:469] Saved message for client 11057839:{True, 1} in room 4567, retries=0
+INFO     2018-12-07 02:09:27,773 module.py:806] default: "POST /message/4567/11057839 HTTP/1.1" 200 21
+INFO     2018-12-07 02:09:27,810 apprtc.py:469] Saved message for client 11057839:{True, 2} in room 4567, retries=0
+INFO     2018-12-07 02:09:27,812 module.py:806] default: "POST /message/4567/11057839 HTTP/1.1" 200 21
+INFO     2018-12-07 02:19:11,383 module.py:806] default: "POST /bye/4567/11057839 HTTP/1.1" 404 52
+INFO     2018-12-07 02:25:29,167 apprtc.py:401] Added client 13706355 in room 123, retries = 0
+INFO     2018-12-07 02:25:29,168 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:25:29,169 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:25:29,169 apprtc.py:544] User 13706355 joined room 123
+INFO     2018-12-07 02:25:29,169 apprtc.py:545] Room 123 has state ['13706355']
+INFO     2018-12-07 02:25:29,172 module.py:806] default: "POST /join/123 HTTP/1.1" 200 882
+INFO     2018-12-07 02:25:40,088 apprtc.py:401] Added client 07050168 in room 123, retries = 0
+INFO     2018-12-07 02:25:40,088 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '123', u'timestamp': '2018-12-07T02:25:40.088792', u'host': '119.23.39.109:8080'}}]}
+INFO     2018-12-07 02:25:40,089 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:25:40,090 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:25:40,090 apprtc.py:544] User 07050168 joined room 123
+INFO     2018-12-07 02:25:40,090 apprtc.py:545] Room 123 has state ['07050168', '13706355']
+INFO     2018-12-07 02:25:40,093 module.py:806] default: "POST /join/123 HTTP/1.1" 200 883
+INFO     2018-12-07 02:25:49,429 apprtc.py:538] Error adding client to room: FULL, room_state=['07050168', '13706355']
+INFO     2018-12-07 02:25:49,431 module.py:806] default: "POST /join/123 HTTP/1.1" 200 46
+INFO     2018-12-07 02:26:22,144 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 02:26:22,146 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:26:22,149 module.py:806] default: "GET / HTTP/1.1" 200 8237
+INFO     2018-12-07 02:26:22,228 module.py:806] default: "GET /css/main.css HTTP/1.1" 200 6402
+INFO     2018-12-07 02:26:22,238 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.1" 200 265044
+INFO     2018-12-07 02:26:22,864 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.1" 200 31806
+INFO     2018-12-07 02:27:14,573 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 02:27:14,575 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:27:14,578 module.py:806] default: "GET / HTTP/1.0" 200 8237
+INFO     2018-12-07 02:27:14,638 module.py:806] default: "GET /css/main.css HTTP/1.0" 200 6402
+INFO     2018-12-07 02:27:14,682 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 200 265044
+INFO     2018-12-07 02:27:15,117 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:27:25,937 apprtc.py:538] Error adding client to room: FULL, room_state=['07050168', '13706355']
+INFO     2018-12-07 02:27:25,940 module.py:806] default: "POST /join/123 HTTP/1.1" 200 46
+INFO     2018-12-07 02:27:43,856 apprtc.py:401] Added client 74082881 in room 555, retries = 0
+INFO     2018-12-07 02:27:43,857 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:27:43,858 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:27:43,858 apprtc.py:544] User 74082881 joined room 555
+INFO     2018-12-07 02:27:43,858 apprtc.py:545] Room 555 has state ['74082881']
+INFO     2018-12-07 02:27:43,862 module.py:806] default: "POST /join/555 HTTP/1.1" 200 882
+INFO     2018-12-07 02:28:24,005 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 02:28:24,007 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:28:24,010 module.py:806] default: "GET / HTTP/1.1" 200 8237
+INFO     2018-12-07 02:33:11,977 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 02:33:11,979 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:33:11,982 module.py:806] default: "GET / HTTP/1.0" 200 8237
+INFO     2018-12-07 02:33:12,035 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:33:12,077 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:33:12,256 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 02:33:54,628 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:33:54,630 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:33:54,633 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:33:54,802 module.py:806] default: "GET /css/main.css HTTP/1.0" 200 6402
+INFO     2018-12-07 02:33:54,804 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 200 265044
+INFO     2018-12-07 02:33:56,049 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:34:11,182 apprtc.py:401] Added client 06032456 in room 445824077, retries = 0
+INFO     2018-12-07 02:34:11,182 apprtc.py:95] Applying media constraints: {'video': {'mandatory': {}, 'optional': [{'minWidth': '1280'}, {'minHeight': '720'}]}, 'audio': True}
+WARNING  2018-12-07 02:34:11,183 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:34:11,184 apprtc.py:544] User 06032456 joined room 445824077
+INFO     2018-12-07 02:34:11,184 apprtc.py:545] Room 445824077 has state ['06032456']
+INFO     2018-12-07 02:34:11,186 module.py:806] default: "POST /join/445824077 HTTP/1.0" 200 976
+INFO     2018-12-07 02:34:15,469 apprtc.py:401] Added client 87444509 in room 445824077, retries = 0
+INFO     2018-12-07 02:34:15,469 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '445824077', u'timestamp': '2018-12-07T02:34:15.469773', u'host': '172.18.59.81:8080'}}]}
+INFO     2018-12-07 02:34:15,470 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:34:15,471 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:34:15,472 apprtc.py:544] User 87444509 joined room 445824077
+INFO     2018-12-07 02:34:15,472 apprtc.py:545] Room 445824077 has state ['87444509', '06032456']
+INFO     2018-12-07 02:34:15,474 module.py:806] default: "POST /join/445824077 HTTP/1.0" 200 894
+INFO     2018-12-07 02:34:32,293 apprtc.py:439] Removed client 06032456 from room 445824077, retries=0
+INFO     2018-12-07 02:34:32,293 apprtc.py:478] Room 445824077 has state ['87444509']
+INFO     2018-12-07 02:34:32,296 module.py:806] default: "POST /leave/445824077/06032456 HTTP/1.0" 200 -
+INFO     2018-12-07 02:34:32,430 module.py:806] default: "POST /bye/445824077/06032456 HTTP/1.1" 404 52
+INFO     2018-12-07 02:34:47,757 module.py:806] default: "POST /bye/445824077/87444509 HTTP/1.1" 404 52
+INFO     2018-12-07 02:35:36,056 module.py:806] default: "GET /favicon.ico HTTP/1.1" 404 52
+INFO     2018-12-07 02:35:43,616 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:35:43,618 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:35:43,621 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:35:54,589 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 200 265044
+INFO     2018-12-07 02:35:54,589 module.py:806] default: "GET /css/main.css HTTP/1.0" 200 6402
+INFO     2018-12-07 02:37:01,267 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:37:01,269 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:37:01,272 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:37:01,585 module.py:806] default: "GET /css/main.css HTTP/1.0" 200 6402
+INFO     2018-12-07 02:37:01,600 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 200 265044
+INFO     2018-12-07 02:37:02,960 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:37:18,233 apprtc.py:401] Added client 89937559 in room 234567, retries = 0
+INFO     2018-12-07 02:37:18,233 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:37:18,235 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:37:18,235 apprtc.py:544] User 89937559 joined room 234567
+INFO     2018-12-07 02:37:18,235 apprtc.py:545] Room 234567 has state ['89937559']
+INFO     2018-12-07 02:37:18,237 module.py:806] default: "POST /join/234567 HTTP/1.0" 200 887
+INFO     2018-12-07 02:37:21,963 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:37:21,965 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:37:21,968 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:37:22,267 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:37:22,269 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:38:01,080 apprtc.py:439] Removed client 89937559 from room 234567, retries=0
+INFO     2018-12-07 02:38:01,080 apprtc.py:478] Room 234567 has state None
+INFO     2018-12-07 02:38:01,082 module.py:806] default: "POST /leave/234567/89937559 HTTP/1.0" 200 -
+INFO     2018-12-07 02:38:01,270 module.py:806] default: "POST /bye/234567/89937559 HTTP/1.1" 404 52
+INFO     2018-12-07 02:44:36,345 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:44:36,347 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:44:36,350 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:44:36,441 module.py:806] default: "GET /css/main.css HTTP/1.0" 200 6402
+INFO     2018-12-07 02:44:36,496 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 200 265044
+INFO     2018-12-07 02:44:37,639 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:44:37,650 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:44:48,164 apprtc.py:401] Added client 35468287 in room 234567, retries = 0
+INFO     2018-12-07 02:44:48,164 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:44:48,165 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:44:48,166 apprtc.py:544] User 35468287 joined room 234567
+INFO     2018-12-07 02:44:48,166 apprtc.py:545] Room 234567 has state ['35468287']
+INFO     2018-12-07 02:44:48,168 module.py:806] default: "POST /join/234567 HTTP/1.0" 200 887
+INFO     2018-12-07 02:45:12,695 apprtc.py:401] Added client 80378226 in room 234567, retries = 0
+INFO     2018-12-07 02:45:12,695 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '234567', u'timestamp': '2018-12-07T02:45:12.695222', u'host': '172.18.59.81:8080'}}]}
+INFO     2018-12-07 02:45:12,695 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:45:12,696 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:45:12,697 apprtc.py:544] User 80378226 joined room 234567
+INFO     2018-12-07 02:45:12,697 apprtc.py:545] Room 234567 has state ['80378226', '35468287']
+INFO     2018-12-07 02:45:12,700 module.py:806] default: "POST /join/234567 HTTP/1.0" 200 888
+INFO     2018-12-07 02:45:52,712 module.py:806] default: "POST /bye/234567/80378226 HTTP/1.1" 404 52
+INFO     2018-12-07 02:49:32,579 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:49:32,581 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:49:32,584 module.py:806] default: "GET / HTTP/1.1" 200 8166
+INFO     2018-12-07 02:49:32,716 module.py:806] default: "GET /css/main.css HTTP/1.1" 304 -
+INFO     2018-12-07 02:49:32,721 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.1" 304 -
+INFO     2018-12-07 02:49:32,772 module.py:806] default: "GET /manifest.json HTTP/1.1" 200 240
+INFO     2018-12-07 02:49:32,906 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.1" 304 -
+INFO     2018-12-07 02:49:55,955 module.py:806] default: "GET /manifest.json HTTP/1.1" 304 -
+INFO     2018-12-07 02:49:56,159 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.1" 304 -
+INFO     2018-12-07 02:50:05,221 apprtc.py:401] Added client 80865333 in room 88888, retries = 0
+INFO     2018-12-07 02:50:05,222 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:50:05,223 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:50:05,223 apprtc.py:544] User 80865333 joined room 88888
+INFO     2018-12-07 02:50:05,223 apprtc.py:545] Room 88888 has state ['80865333']
+INFO     2018-12-07 02:50:05,226 module.py:806] default: "POST /join/88888 HTTP/1.1" 200 886
+INFO     2018-12-07 02:50:07,445 apprtc.py:469] Saved message for client 80865333:{True, 1} in room 88888, retries=0
+INFO     2018-12-07 02:50:07,447 module.py:806] default: "POST /message/88888/80865333 HTTP/1.1" 200 21
+INFO     2018-12-07 02:50:07,571 apprtc.py:469] Saved message for client 80865333:{True, 2} in room 88888, retries=0
+INFO     2018-12-07 02:50:07,575 module.py:806] default: "POST /message/88888/80865333 HTTP/1.1" 200 21
+INFO     2018-12-07 02:50:07,577 apprtc.py:469] Saved message for client 80865333:{True, 3} in room 88888, retries=1
+INFO     2018-12-07 02:50:07,579 module.py:806] default: "POST /message/88888/80865333 HTTP/1.1" 200 21
+INFO     2018-12-07 02:50:09,749 apprtc.py:401] Added client 13995250 in room 88888, retries = 0
+INFO     2018-12-07 02:50:09,749 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '88888', u'timestamp': '2018-12-07T02:50:09.749293', u'host': '119.23.39.109:8080'}}]}
+INFO     2018-12-07 02:50:09,749 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:50:09,750 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:50:09,751 apprtc.py:544] User 13995250 joined room 88888
+INFO     2018-12-07 02:50:09,751 apprtc.py:545] Room 88888 has state ['13995250', '80865333']
+INFO     2018-12-07 02:50:09,753 module.py:806] default: "POST /join/88888 HTTP/1.1" 200 3606
+INFO     2018-12-07 02:51:55,966 apprtc.py:439] Removed client 80865333 from room 88888, retries=0
+INFO     2018-12-07 02:51:55,966 apprtc.py:478] Room 88888 has state ['13995250']
+INFO     2018-12-07 02:51:55,968 module.py:806] default: "POST /leave/88888/80865333 HTTP/1.1" 200 -
+INFO     2018-12-07 02:51:56,147 module.py:806] default: "POST /bye/88888/80865333 HTTP/1.1" 404 52
+INFO     2018-12-07 02:51:56,403 apprtc.py:469] Saved message for client 13995250:{True, 1} in room 88888, retries=0
+INFO     2018-12-07 02:51:56,407 apprtc.py:469] Saved message for client 13995250:{True, 2} in room 88888, retries=1
+INFO     2018-12-07 02:51:56,408 module.py:806] default: "POST /message/88888/13995250 HTTP/1.1" 200 21
+INFO     2018-12-07 02:51:56,413 module.py:806] default: "POST /message/88888/13995250 HTTP/1.1" 200 21
+INFO     2018-12-07 02:51:56,416 apprtc.py:469] Saved message for client 13995250:{True, 3} in room 88888, retries=0
+INFO     2018-12-07 02:51:56,418 module.py:806] default: "POST /message/88888/13995250 HTTP/1.1" 200 21
+INFO     2018-12-07 02:52:07,050 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:52:07,052 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:52:07,055 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:52:07,181 module.py:806] default: "GET /css/main.css HTTP/1.0" 200 6402
+INFO     2018-12-07 02:52:07,228 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 200 265044
+INFO     2018-12-07 02:52:07,254 module.py:806] default: "GET /manifest.json HTTP/1.0" 200 240
+INFO     2018-12-07 02:52:07,339 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:52:09,073 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:52:19,382 apprtc.py:401] Added client 74305988 in room 456789, retries = 0
+INFO     2018-12-07 02:52:19,382 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:52:19,384 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:52:19,384 apprtc.py:544] User 74305988 joined room 456789
+INFO     2018-12-07 02:52:19,384 apprtc.py:545] Room 456789 has state ['74305988']
+INFO     2018-12-07 02:52:19,387 module.py:806] default: "POST /join/456789 HTTP/1.0" 200 883
+INFO     2018-12-07 02:52:21,645 apprtc.py:469] Saved message for client 74305988:{True, 1} in room 456789, retries=0
+INFO     2018-12-07 02:52:21,647 module.py:806] default: "POST /message/456789/74305988 HTTP/1.0" 200 21
+INFO     2018-12-07 02:52:21,704 apprtc.py:469] Saved message for client 74305988:{True, 2} in room 456789, retries=0
+INFO     2018-12-07 02:52:21,709 module.py:806] default: "POST /message/456789/74305988 HTTP/1.0" 200 21
+INFO     2018-12-07 02:52:21,709 apprtc.py:469] Saved message for client 74305988:{True, 3} in room 456789, retries=1
+INFO     2018-12-07 02:52:21,711 module.py:806] default: "POST /message/456789/74305988 HTTP/1.0" 200 21
+INFO     2018-12-07 02:52:29,072 apprtc.py:439] Removed client 13995250 from room 88888, retries=0
+INFO     2018-12-07 02:52:29,072 apprtc.py:478] Room 88888 has state None
+INFO     2018-12-07 02:52:29,074 module.py:806] default: "POST /leave/88888/13995250 HTTP/1.1" 200 -
+INFO     2018-12-07 02:52:29,253 module.py:806] default: "POST /bye/88888/13995250 HTTP/1.1" 404 52
+WARNING  2018-12-07 02:53:06,796 apprtc.py:422] remove_client_from_room: Unknown room 234567
+INFO     2018-12-07 02:53:06,798 module.py:806] default: "POST /leave/234567/35468287 HTTP/1.0" 200 -
+INFO     2018-12-07 02:53:07,029 module.py:806] default: "POST /bye/234567/35468287 HTTP/1.1" 404 52
+INFO     2018-12-07 02:53:07,167 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:53:07,168 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:53:07,171 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:53:07,364 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:53:07,420 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:53:07,568 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 02:53:07,579 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 200 31806
+INFO     2018-12-07 02:53:40,827 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:53:40,829 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:53:40,832 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:53:41,132 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:53:41,142 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:53:59,229 apprtc.py:401] Added client 58497215 in room 456789, retries = 0
+INFO     2018-12-07 02:53:59,229 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '456789', u'timestamp': '2018-12-07T02:53:59.229830', u'host': '119.23.39.109'}}]}
+INFO     2018-12-07 02:53:59,230 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:53:59,231 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:53:59,231 apprtc.py:544] User 58497215 joined room 456789
+INFO     2018-12-07 02:53:59,232 apprtc.py:545] Room 456789 has state ['74305988', '58497215']
+INFO     2018-12-07 02:53:59,234 module.py:806] default: "POST /join/456789 HTTP/1.0" 200 3603
+INFO     2018-12-07 02:54:23,546 apprtc.py:439] Removed client 74305988 from room 456789, retries=0
+INFO     2018-12-07 02:54:23,546 apprtc.py:478] Room 456789 has state ['58497215']
+INFO     2018-12-07 02:54:23,549 module.py:806] default: "POST /leave/456789/74305988 HTTP/1.0" 200 -
+INFO     2018-12-07 02:54:23,790 module.py:806] default: "POST /bye/456789/74305988 HTTP/1.1" 404 52
+INFO     2018-12-07 02:54:23,876 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:54:23,877 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:54:23,880 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:54:24,006 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:54:24,066 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:54:24,069 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 02:54:24,163 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 02:54:24,456 apprtc.py:469] Saved message for client 58497215:{True, 1} in room 456789, retries=0
+INFO     2018-12-07 02:54:24,459 module.py:806] default: "POST /message/456789/58497215 HTTP/1.0" 200 21
+INFO     2018-12-07 02:54:24,658 apprtc.py:469] Saved message for client 58497215:{True, 2} in room 456789, retries=0
+INFO     2018-12-07 02:54:24,663 module.py:806] default: "POST /message/456789/58497215 HTTP/1.0" 200 21
+INFO     2018-12-07 02:54:24,667 apprtc.py:469] Saved message for client 58497215:{True, 3} in room 456789, retries=0
+INFO     2018-12-07 02:54:24,671 module.py:806] default: "POST /message/456789/58497215 HTTP/1.0" 200 21
+INFO     2018-12-07 02:54:24,672 apprtc.py:469] Saved message for client 58497215:{True, 4} in room 456789, retries=1
+INFO     2018-12-07 02:54:24,675 module.py:806] default: "POST /message/456789/58497215 HTTP/1.0" 200 21
+INFO     2018-12-07 02:54:24,786 apprtc.py:469] Saved message for client 58497215:{True, 5} in room 456789, retries=0
+INFO     2018-12-07 02:54:24,788 module.py:806] default: "POST /message/456789/58497215 HTTP/1.0" 200 21
+INFO     2018-12-07 02:54:41,677 apprtc.py:401] Added client 36210316 in room 456789, retries = 0
+INFO     2018-12-07 02:54:41,677 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '456789', u'timestamp': '2018-12-07T02:54:41.677217', u'host': '119.23.39.109'}}]}
+INFO     2018-12-07 02:54:41,677 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:54:41,678 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:54:41,679 apprtc.py:544] User 36210316 joined room 456789
+INFO     2018-12-07 02:54:41,679 apprtc.py:545] Room 456789 has state ['58497215', '36210316']
+INFO     2018-12-07 02:54:41,681 module.py:806] default: "POST /join/456789 HTTP/1.0" 200 3635
+INFO     2018-12-07 02:55:02,978 apprtc.py:439] Removed client 58497215 from room 456789, retries=0
+INFO     2018-12-07 02:55:02,978 apprtc.py:478] Room 456789 has state ['36210316']
+INFO     2018-12-07 02:55:02,980 module.py:806] default: "POST /leave/456789/58497215 HTTP/1.0" 200 -
+INFO     2018-12-07 02:55:03,146 module.py:806] default: "POST /bye/456789/58497215 HTTP/1.1" 404 52
+INFO     2018-12-07 02:55:03,199 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:03,201 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:03,203 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:55:03,285 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:03,286 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:03,370 apprtc.py:469] Saved message for client 36210316:{True, 1} in room 456789, retries=0
+INFO     2018-12-07 02:55:03,372 module.py:806] default: "POST /message/456789/36210316 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:03,437 apprtc.py:469] Saved message for client 36210316:{True, 2} in room 456789, retries=0
+INFO     2018-12-07 02:55:03,441 module.py:806] default: "POST /message/456789/36210316 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:03,442 apprtc.py:469] Saved message for client 36210316:{True, 3} in room 456789, retries=1
+INFO     2018-12-07 02:55:03,444 module.py:806] default: "POST /message/456789/36210316 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:08,157 apprtc.py:401] Added client 50706962 in room 456789, retries = 0
+INFO     2018-12-07 02:55:08,157 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '456789', u'timestamp': '2018-12-07T02:55:08.157616', u'host': '119.23.39.109'}}]}
+INFO     2018-12-07 02:55:08,157 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:08,159 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:08,159 apprtc.py:544] User 50706962 joined room 456789
+INFO     2018-12-07 02:55:08,159 apprtc.py:545] Room 456789 has state ['50706962', '36210316']
+INFO     2018-12-07 02:55:08,162 module.py:806] default: "POST /join/456789 HTTP/1.0" 200 3603
+INFO     2018-12-07 02:55:13,791 apprtc.py:439] Removed client 36210316 from room 456789, retries=0
+INFO     2018-12-07 02:55:13,791 apprtc.py:478] Room 456789 has state ['50706962']
+INFO     2018-12-07 02:55:13,794 module.py:806] default: "POST /leave/456789/36210316 HTTP/1.0" 200 -
+INFO     2018-12-07 02:55:14,010 module.py:806] default: "POST /bye/456789/36210316 HTTP/1.1" 404 52
+INFO     2018-12-07 02:55:14,106 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:14,108 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:14,110 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:55:14,247 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:14,248 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:14,310 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:14,454 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:15,722 apprtc.py:439] Removed client 50706962 from room 456789, retries=0
+INFO     2018-12-07 02:55:15,722 apprtc.py:478] Room 456789 has state None
+INFO     2018-12-07 02:55:15,724 module.py:806] default: "POST /leave/456789/50706962 HTTP/1.0" 200 -
+INFO     2018-12-07 02:55:15,849 module.py:806] default: "POST /bye/456789/50706962 HTTP/1.1" 404 52
+INFO     2018-12-07 02:55:15,919 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:15,921 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:15,923 module.py:806] default: "GET /r/456789 HTTP/1.0" 200 8327
+INFO     2018-12-07 02:55:16,021 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:16,022 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:24,319 apprtc.py:401] Added client 63192664 in room 777777, retries = 0
+INFO     2018-12-07 02:55:24,319 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:24,321 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:24,321 apprtc.py:544] User 63192664 joined room 777777
+INFO     2018-12-07 02:55:24,321 apprtc.py:545] Room 777777 has state ['63192664']
+INFO     2018-12-07 02:55:24,324 module.py:806] default: "POST /join/777777 HTTP/1.0" 200 883
+INFO     2018-12-07 02:55:26,312 apprtc.py:469] Saved message for client 63192664:{True, 1} in room 777777, retries=0
+INFO     2018-12-07 02:55:26,314 module.py:806] default: "POST /message/777777/63192664 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:26,366 apprtc.py:469] Saved message for client 63192664:{True, 2} in room 777777, retries=0
+INFO     2018-12-07 02:55:26,369 apprtc.py:469] Saved message for client 63192664:{True, 3} in room 777777, retries=0
+INFO     2018-12-07 02:55:26,371 module.py:806] default: "POST /message/777777/63192664 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:26,373 module.py:806] default: "POST /message/777777/63192664 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:29,634 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:29,636 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:29,639 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:55:29,856 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:29,858 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:55:37,756 apprtc.py:401] Added client 09240605 in room 777777, retries = 0
+INFO     2018-12-07 02:55:37,756 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '777777', u'timestamp': '2018-12-07T02:55:37.756448', u'host': '119.23.39.109'}}]}
+INFO     2018-12-07 02:55:37,756 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:55:37,758 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:55:37,758 apprtc.py:544] User 09240605 joined room 777777
+INFO     2018-12-07 02:55:37,758 apprtc.py:545] Room 777777 has state ['09240605', '63192664']
+INFO     2018-12-07 02:55:37,761 module.py:806] default: "POST /join/777777 HTTP/1.0" 200 3603
+INFO     2018-12-07 02:55:48,511 apprtc.py:439] Removed client 09240605 from room 777777, retries=0
+INFO     2018-12-07 02:55:48,511 apprtc.py:478] Room 777777 has state ['63192664']
+INFO     2018-12-07 02:55:48,513 module.py:806] default: "POST /leave/777777/09240605 HTTP/1.0" 200 -
+INFO     2018-12-07 02:55:48,620 module.py:806] default: "POST /bye/777777/09240605 HTTP/1.1" 404 52
+INFO     2018-12-07 02:55:48,861 apprtc.py:469] Saved message for client 63192664:{True, 1} in room 777777, retries=0
+INFO     2018-12-07 02:55:48,866 module.py:806] default: "POST /message/777777/63192664 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:48,870 apprtc.py:469] Saved message for client 63192664:{True, 2} in room 777777, retries=0
+INFO     2018-12-07 02:55:48,874 module.py:806] default: "POST /message/777777/63192664 HTTP/1.0" 200 21
+INFO     2018-12-07 02:55:48,877 apprtc.py:469] Saved message for client 63192664:{True, 3} in room 777777, retries=0
+INFO     2018-12-07 02:55:48,879 module.py:806] default: "POST /message/777777/63192664 HTTP/1.0" 200 21
+INFO     2018-12-07 02:56:00,036 apprtc.py:439] Removed client 63192664 from room 777777, retries=0
+INFO     2018-12-07 02:56:00,036 apprtc.py:478] Room 777777 has state None
+INFO     2018-12-07 02:56:00,038 module.py:806] default: "POST /leave/777777/63192664 HTTP/1.0" 200 -
+INFO     2018-12-07 02:56:00,254 module.py:806] default: "POST /bye/777777/63192664 HTTP/1.1" 404 52
+INFO     2018-12-07 02:56:00,349 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:56:00,350 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:56:00,353 module.py:806] default: "GET /r/777777 HTTP/1.0" 200 8327
+INFO     2018-12-07 02:56:00,487 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:56:00,488 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:56:00,550 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 02:56:00,704 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:22,811 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:22,970 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:40,466 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:58:40,468 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:58:40,471 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:58:40,678 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:40,679 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:51,507 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 02:58:51,509 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 02:58:51,513 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 02:58:52,159 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:52,159 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:52,220 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 02:58:52,633 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 03:00:22,816 apprtc.py:401] Added client 16868797 in room 666666, retries = 0
+INFO     2018-12-07 03:00:22,816 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:00:22,817 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:00:22,818 apprtc.py:544] User 16868797 joined room 666666
+INFO     2018-12-07 03:00:22,818 apprtc.py:545] Room 666666 has state ['16868797']
+INFO     2018-12-07 03:00:22,820 module.py:806] default: "POST /join/666666 HTTP/1.0" 200 883
+INFO     2018-12-07 03:00:24,442 apprtc.py:469] Saved message for client 16868797:{True, 1} in room 666666, retries=0
+INFO     2018-12-07 03:00:24,444 module.py:806] default: "POST /message/666666/16868797 HTTP/1.0" 200 21
+INFO     2018-12-07 03:00:24,516 apprtc.py:469] Saved message for client 16868797:{True, 2} in room 666666, retries=0
+INFO     2018-12-07 03:00:24,518 module.py:806] default: "POST /message/666666/16868797 HTTP/1.0" 200 21
+INFO     2018-12-07 03:00:24,607 apprtc.py:469] Saved message for client 16868797:{True, 3} in room 666666, retries=0
+INFO     2018-12-07 03:00:24,610 module.py:806] default: "POST /message/666666/16868797 HTTP/1.0" 200 21
+INFO     2018-12-07 03:00:32,521 apprtc.py:439] Removed client 16868797 from room 666666, retries=0
+INFO     2018-12-07 03:00:32,521 apprtc.py:478] Room 666666 has state None
+INFO     2018-12-07 03:00:32,523 module.py:806] default: "POST /leave/666666/16868797 HTTP/1.0" 200 -
+INFO     2018-12-07 03:00:32,736 module.py:806] default: "POST /bye/666666/16868797 HTTP/1.1" 404 52
+INFO     2018-12-07 03:00:32,800 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:00:32,802 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:00:32,805 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 03:00:32,908 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:00:32,911 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 03:00:32,960 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 03:00:33,061 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 03:00:47,808 apprtc.py:401] Added client 18484536 in room 999999, retries = 0
+INFO     2018-12-07 03:00:47,808 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:00:47,810 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:00:47,810 apprtc.py:544] User 18484536 joined room 999999
+INFO     2018-12-07 03:00:47,810 apprtc.py:545] Room 999999 has state ['18484536']
+INFO     2018-12-07 03:00:47,812 module.py:806] default: "POST /join/999999 HTTP/1.0" 200 883
+INFO     2018-12-07 03:00:49,238 apprtc.py:469] Saved message for client 18484536:{True, 1} in room 999999, retries=0
+INFO     2018-12-07 03:00:49,241 module.py:806] default: "POST /message/999999/18484536 HTTP/1.0" 200 21
+INFO     2018-12-07 03:00:49,324 apprtc.py:469] Saved message for client 18484536:{True, 2} in room 999999, retries=0
+INFO     2018-12-07 03:00:49,326 module.py:806] default: "POST /message/999999/18484536 HTTP/1.0" 200 21
+INFO     2018-12-07 03:00:49,335 apprtc.py:469] Saved message for client 18484536:{True, 3} in room 999999, retries=0
+INFO     2018-12-07 03:00:49,337 module.py:806] default: "POST /message/999999/18484536 HTTP/1.0" 200 21
+INFO     2018-12-07 03:00:54,694 apprtc.py:401] Added client 39311631 in room 999999, retries = 0
+INFO     2018-12-07 03:00:54,694 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '999999', u'timestamp': '2018-12-07T03:00:54.694350', u'host': '119.23.39.109'}}]}
+INFO     2018-12-07 03:00:54,694 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:00:54,696 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:00:54,696 apprtc.py:544] User 39311631 joined room 999999
+INFO     2018-12-07 03:00:54,696 apprtc.py:545] Room 999999 has state ['18484536', '39311631']
+INFO     2018-12-07 03:00:54,699 module.py:806] default: "POST /join/999999 HTTP/1.0" 200 3602
+INFO     2018-12-07 03:01:12,826 module.py:806] default: "POST /bye/999999/39311631 HTTP/1.1" 404 52
+INFO     2018-12-07 03:01:20,352 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:01:20,355 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:20,358 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 03:01:20,611 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:20,613 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:26,356 apprtc.py:538] Error adding client to room: FULL, room_state=['18484536', '39311631']
+INFO     2018-12-07 03:01:26,359 module.py:806] default: "POST /join/999999 HTTP/1.0" 200 46
+WARNING  2018-12-07 03:01:26,438 apprtc.py:426] remove_client_from_room: Unknown client undefined for room 999999
+INFO     2018-12-07 03:01:26,441 module.py:806] default: "POST /leave/999999/undefined HTTP/1.0" 200 -
+INFO     2018-12-07 03:01:26,550 apprtc.py:575] Room 999999 has state ['18484536', '39311631']
+INFO     2018-12-07 03:01:26,550 apprtc.py:577] Room 999999 is full
+INFO     2018-12-07 03:01:26,554 module.py:806] default: "GET /r/999999 HTTP/1.0" 200 2030
+INFO     2018-12-07 03:01:26,683 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:31,701 apprtc.py:439] Removed client 18484536 from room 999999, retries=0
+INFO     2018-12-07 03:01:31,701 apprtc.py:478] Room 999999 has state ['39311631']
+INFO     2018-12-07 03:01:31,704 module.py:806] default: "POST /leave/999999/18484536 HTTP/1.0" 200 -
+INFO     2018-12-07 03:01:31,956 module.py:806] default: "POST /bye/999999/18484536 HTTP/1.1" 404 52
+INFO     2018-12-07 03:01:32,044 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:01:32,046 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:32,048 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 03:01:32,180 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:32,237 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:32,252 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:32,390 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:33,509 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:01:33,511 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:33,514 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 03:01:33,643 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:33,646 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:42,865 apprtc.py:401] Added client 96951325 in room 333333, retries = 0
+INFO     2018-12-07 03:01:42,865 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:01:42,867 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:42,867 apprtc.py:544] User 96951325 joined room 333333
+INFO     2018-12-07 03:01:42,867 apprtc.py:545] Room 333333 has state ['96951325']
+INFO     2018-12-07 03:01:42,870 module.py:806] default: "POST /join/333333 HTTP/1.0" 200 883
+INFO     2018-12-07 03:01:44,208 apprtc.py:401] Added client 04163465 in room 333333, retries = 0
+INFO     2018-12-07 03:01:44,208 analytics.py:95] Event: {'rows': [{'json': {u'event_type': u'ROOM_SIZE_2', u'room_id': '333333', u'timestamp': '2018-12-07T03:01:44.208799', u'host': '119.23.39.109'}}]}
+INFO     2018-12-07 03:01:44,209 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:01:44,210 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:44,210 apprtc.py:544] User 04163465 joined room 333333
+INFO     2018-12-07 03:01:44,211 apprtc.py:545] Room 333333 has state ['96951325', '04163465']
+INFO     2018-12-07 03:01:44,213 module.py:806] default: "POST /join/333333 HTTP/1.0" 200 884
+INFO     2018-12-07 03:01:44,701 apprtc.py:487] Forwarding message to collider for room 333333 client 96951325
+WARNING  2018-12-07 03:01:44,703 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:44,713 module.py:806] default: "POST /message/333333/96951325 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:44,737 apprtc.py:487] Forwarding message to collider for room 333333 client 96951325
+INFO     2018-12-07 03:01:44,739 apprtc.py:487] Forwarding message to collider for room 333333 client 96951325
+WARNING  2018-12-07 03:01:44,740 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+WARNING  2018-12-07 03:01:44,741 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:44,750 module.py:806] default: "POST /message/333333/96951325 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:44,751 module.py:806] default: "POST /message/333333/96951325 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,596 apprtc.py:439] Removed client 96951325 from room 333333, retries=0
+INFO     2018-12-07 03:01:48,596 apprtc.py:478] Room 333333 has state ['04163465']
+INFO     2018-12-07 03:01:48,599 module.py:806] default: "POST /leave/333333/96951325 HTTP/1.0" 200 -
+INFO     2018-12-07 03:01:48,815 module.py:806] default: "POST /bye/333333/96951325 HTTP/1.1" 404 52
+INFO     2018-12-07 03:01:48,849 apprtc.py:469] Saved message for client 04163465:{True, 1} in room 333333, retries=0
+INFO     2018-12-07 03:01:48,851 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,914 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:01:48,915 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:01:48,918 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 03:01:48,932 apprtc.py:469] Saved message for client 04163465:{True, 2} in room 333333, retries=0
+INFO     2018-12-07 03:01:48,947 apprtc.py:469] Saved message for client 04163465:{True, 3} in room 333333, retries=1
+INFO     2018-12-07 03:01:48,948 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,956 apprtc.py:469] Saved message for client 04163465:{True, 4} in room 333333, retries=0
+INFO     2018-12-07 03:01:48,961 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,963 apprtc.py:469] Saved message for client 04163465:{True, 5} in room 333333, retries=2
+INFO     2018-12-07 03:01:48,967 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,968 apprtc.py:469] Saved message for client 04163465:{True, 6} in room 333333, retries=2
+INFO     2018-12-07 03:01:48,969 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,971 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:48,978 apprtc.py:469] Saved message for client 04163465:{True, 7} in room 333333, retries=0
+INFO     2018-12-07 03:01:48,980 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:49,030 apprtc.py:469] Saved message for client 04163465:{True, 8} in room 333333, retries=0
+INFO     2018-12-07 03:01:49,032 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:49,046 apprtc.py:469] Saved message for client 04163465:{True, 9} in room 333333, retries=0
+INFO     2018-12-07 03:01:49,048 module.py:806] default: "POST /message/333333/04163465 HTTP/1.0" 200 21
+INFO     2018-12-07 03:01:49,065 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:49,069 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:49,146 module.py:806] default: "GET /manifest.json HTTP/1.0" 304 -
+INFO     2018-12-07 03:01:49,292 module.py:806] default: "GET /images/webrtc-icon-192x192.png HTTP/1.0" 304 -
+INFO     2018-12-07 03:02:19,108 module.py:806] default: "POST /bye/333333/04163465 HTTP/1.1" 404 52
+INFO     2018-12-07 03:06:13,473 module.py:806] default: "GET /manifest.json HTTP/1.0" 200 240
+INFO     2018-12-07 03:11:31,819 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:11:31,821 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:11:31,824 module.py:806] default: "GET / HTTP/1.0" 200 8166
+INFO     2018-12-07 03:11:32,127 module.py:806] default: "GET /css/main.css HTTP/1.0" 304 -
+INFO     2018-12-07 03:11:32,146 module.py:806] default: "GET /js/apprtc.debug.js HTTP/1.0" 304 -
+INFO     2018-12-07 03:11:46,637 apprtc.py:401] Added client 76364772 in room 987654, retries = 0
+INFO     2018-12-07 03:11:46,637 apprtc.py:95] Applying media constraints: {'video': True, 'audio': True}
+WARNING  2018-12-07 03:11:46,639 apprtc.py:139] Invalid or no value returned from memcache, using fallback: null
+INFO     2018-12-07 03:11:46,639 apprtc.py:544] User 76364772 joined room 987654
+INFO     2018-12-07 03:11:46,639 apprtc.py:545] Room 987654 has state ['76364772']
+INFO     2018-12-07 03:11:46,641 module.py:806] default: "POST /join/987654 HTTP/1.0" 200 883
+INFO     2018-12-07 03:11:48,313 apprtc.py:469] Saved message for client 76364772:{True, 1} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,315 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,447 apprtc.py:469] Saved message for client 76364772:{True, 2} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,454 apprtc.py:469] Saved message for client 76364772:{True, 3} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,462 apprtc.py:469] Saved message for client 76364772:{True, 4} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,468 apprtc.py:469] Saved message for client 76364772:{True, 5} in room 987654, retries=1
+INFO     2018-12-07 03:11:48,470 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,476 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,476 apprtc.py:469] Saved message for client 76364772:{True, 6} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,480 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,482 apprtc.py:469] Saved message for client 76364772:{True, 7} in room 987654, retries=1
+INFO     2018-12-07 03:11:48,483 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,485 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,486 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,671 apprtc.py:469] Saved message for client 76364772:{True, 8} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,673 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:11:48,709 apprtc.py:469] Saved message for client 76364772:{True, 9} in room 987654, retries=0
+INFO     2018-12-07 03:11:48,712 module.py:806] default: "POST /message/987654/76364772 HTTP/1.0" 200 21
+INFO     2018-12-07 03:13:36,194 module.py:415] [default] Detected file changes:
+  /opt/AppRtc/apprtc/out/app_engine/constants.py

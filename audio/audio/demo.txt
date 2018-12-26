@@ -1,0 +1,30 @@
+SpeechRecognitionManager =speechRecognitionManager=SpeechRecognitionManager.getInstance();
+
+speechRecognitionManager.setSpeechRecognitionURL("http://192.168.1.132:8080/asr/baiduresp");
+       
+	AsrListener listener=new AsrListener() {
+            @Override
+            public void onResult(String result) {
+                Log.e("识别结果：",result);
+            }
+
+            @Override
+            public void liveBegin() {
+
+            }
+
+            @Override
+            public void liveEnd() {
+
+            }
+        };
+
+        speechRecognitionManager.setAsrListener(listener);
+
+        speechRecognitionManager.init();
+
+        speechRecognitionManager.startliveByte();
+////////////////////////////////////////////////////////////////////////
+
+
+ speechRecognitionManager.putByteData(newBuffer);
