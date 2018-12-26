@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/fullscreen_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/pip_video_view"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="135dp"
+        android:layout_marginRight="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/call_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/background">
+        <TextView
+            android:id="@+id/recordWordText"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="-准备识别语音-"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:fadeScrollbars="false"
+            android:scrollbars="none"/>
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="120dp">
+    <TextView
+        android:id="@+id/record_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="00:00:00"
+        android:visibility="visible"/>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="120dp">
+    <TextView
+        android:id="@+id/audio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:text="通话中"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+</merge>
